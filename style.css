@@ -1,0 +1,18 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.atas {
+  background-color: skyblue;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}

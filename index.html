@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+</br>
+    <form id="kalkulator">
+        <table align="center" cellpadding="5" border="2">
+            <thead>
+            </thead>
+            <tbody>
+                <th class ="atas">
+                        <h2>Kalkulatorku</h2>
+                </th>
+                <tr>
+                    <td>
+                        <div class="form-floating mb-2">
+                            <input type="text" class="form-control" name ="angka1" >
+                            <label for="disabledTextInput" class="form-label ">Angka 1</label>
+                          </div>
+                          <div class="form-floating mb-2">
+                            <input type="text" class="form-control" name ="angka2" >
+                            <label for="disabledTextInput" class="form-label">Angka 2</label>
+                          </div>
+                          <div class="form-floating mb-1">
+                            <input type="text" class="form-control" name="hasil" disabled>
+                        </div>          
+                    </td>
+                </tr>
+                 
+            </tbody>
+            <tr>
+                <th>
+                    &nbsp;<button class="btn btn-primary" type="button" name="proses" value="Cetak" onclick="cetakHasilTmbah()">+</button>
+                    <button class="btn btn-info" type="button" name="proses" value="Beli" onclick="cetakHasilKurang()">-</button>
+                    <button class="btn btn-success" type="button" name="proses" value="Beli" onclick="cetakHasilKali()">x</button>
+                    <button class="btn btn-warning" type="button" name="proses" value="Beli" onclick="cetakHasilBagi()">/</button>
+                    <button class="btn btn-danger" type="button" name="proses" value="Beli" onclick="cetakHasilPangkat()">^</button>
+                </th>
+            </tr>
+        </table>
+
+      </form>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="calc.js"></script>
+</body>
+</html>

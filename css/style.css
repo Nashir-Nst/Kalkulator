@@ -1,0 +1,18 @@
+p {
+  text-align: justify;
+  padding: 2px;
+  color: white;
+  line-height: 0.5cm;
+  font-size: 13pt;
+}
+
+.footer {
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
